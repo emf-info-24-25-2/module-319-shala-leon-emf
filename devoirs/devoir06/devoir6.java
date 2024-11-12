@@ -11,7 +11,7 @@ public class devoir6 {
 int[] tableau = new int[taille];
 
 for(int i = 0; i < tableau.length; i++) {
-    tableau[i] = (int) (Math.random() * (max - min + 1)) + min
+    tableau[i] = (int) (Math.random() * (max - min + 1)) + min;
 }
 
         return tableau;
