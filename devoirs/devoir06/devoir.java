@@ -66,6 +66,8 @@ public class devoir {
 
     // Méthode pour rechercher une valeur dans un tableau
     public static int rechercheValeur(int[] tableau, int valeurRecherchee) {
+
+        //RIF: c'est juste! mais pour respecter la convention EMF, il ne faut qu'un seul "return" par méthode
         for (int i = 0; i < tableau.length; i++) {
             if (tableau[i] == valeurRecherchee) {
                 return i; // Retourne l'index de la valeur
