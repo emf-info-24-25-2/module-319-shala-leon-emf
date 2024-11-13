@@ -25,6 +25,7 @@ public static void main(String[] args) {
             } else if (tentative > nombreMystere) {
                 System.out.println("Trop grand !");
             } else {
+                //RIF: c'est bien! pensez aussi à compter le nombre de tentatives du joueur
                 System.out.println("Bravo, trouvé !");
             }
         }
